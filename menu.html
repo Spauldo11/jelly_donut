@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donut Menu | The Jelly Donut</title>
+    <title>The Jelly Donut - Menu</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,44 +13,51 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="hours.html">Visit Us</a></li>
-                <li><a href="menu.html" class="active">The Donuts</a></li>
+                <li><a href="hours.html">Hours & Location</a></li>
+                <li><a href="menu.html" class="active">The Menu</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <h1 class="center-text">Fresh Daily Menu</h1>
-        
-        <div class="menu-grid">
-            <div class="menu-card wiggle-hover">
-                <div class="donut-icon">
-                    <img src="glazed_donut.png" alt="standard glazed donut" class="menu_img">
-                </div>
-                <h3>Classic Glazed</h3>
-                <p>Placeholder description of our light and airy classic donut.</p>
-                <span class="price">$X.XX</span>
-            </div>
+    <main class="menu-page">
+        <h1>Our Fresh Baked Menu</h1>
+        <p class="menu-intro">Hand-crafted donuts made with local ingredients.</p>
 
-            <div class="menu-card wiggle-hover">
-                <div class="donut-icon">🍓</div>
-                <h3>Signature Jelly</h3>
-                <p>Placeholder description of our house-made fruit filling.</p>
-                <span class="price">$X.XX</span>
+        <section class="menu-category">
+            <h2>Signature Jelly Donuts</h2>
+            <div class="menu-items">
+                <article class="menu-item float-up-on-load">
+                    <h3>Classic Raspberry</h3>
+                    <p class="description">Filled with our signature house-made raspberry jam and dusted with sugar.</p>
+                    <p class="price">$XX.XX</p>
+                </article>
+                <article class="menu-item float-up-on-load">
+                    <h3>Lemon Curd</h3>
+                    <p class="description">Zesty lemon filling with a light powdered sugar finish.</p>
+                    <p class="price">$XX.XX</p>
+                </article>
             </div>
+        </section>
 
-            <div class="menu-card wiggle-hover">
-                <div class="donut-icon">
-                </div>
-                <h3>Chocolate Frosted</h3>
-                <p>Placeholder description of our rich Belgian chocolate ganache.</p>
-                <span class="price">$X.XX</span>
+        <section class="menu-category">
+            <h2>Traditional Favorites</h2>
+            <div class="menu-items">
+                <article class="menu-item float-up-on-load">
+                    <h3>Honey Glazed</h3>
+                    <p class="description">Light and airy yeast donut with a silky honey-vanilla glaze.</p>
+                    <p class="price">$XX.XX</p>
+                </article>
+                <article class="menu-item float-up-on-load">
+                    <h3>Old Fashioned</h3>
+                    <p class="description">Cake-style donut with a crunchy exterior and soft center.</p>
+                    <p class="price">$XX.XX</p>
+                </article>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 The Jelly Donut.</p>
+        <p>&copy; 2025 The Jelly Donut. All rights reserved.</p>
     </footer>
 
 </body>
