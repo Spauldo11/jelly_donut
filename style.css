@@ -190,7 +190,7 @@ section {
 }
 
 .map-placeholder {
-    height: 250px;
+    height: 500px;
     background: #e0d8cc;
     display: flex;
     flex-direction: column;
